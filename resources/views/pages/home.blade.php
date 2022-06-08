@@ -386,16 +386,14 @@
     <div class="title">
       <span>Kristopher Calpe</span>
       <span>Crypto Holder and<a target="_blank" href="http://kristophercalpe.tech">Web Administrator</a></span>
-  </div>
+    </div>
   </section>
 
   <section id="about">
     <div class="title">
       <span>About</span>
       <span>I am a programmer, crypto hodler, and a web. developer. I like coding and investing to stuffs that I trust.<span><br/>
-      <span>◗ My<a id="highlight">childhood dream </a> was to become an astronaut and a soldier to protect my country.<span>
-      <span>◗ My<a id="highlight">dream place to visit</a> is Tokyo, Japan and Paris, France.<span>
-      <span>◗ I see myself<a id="highlight">5 years from now</a> being a CEO of my own company and traveling around the world.<span><br/><br/>
+      <span>I see myself<a id="highlight">6 years from now</a> being a CEO of my own company and traveling around the world.<span><br/><br/>
       <span><a href="https://drive.google.com/file/d/1eyAzv04lvx7iVrSrF_UTe44JD7z0mCIk/view" target="_blank">Learn More </a> |<a href="http://kristophercalpe.tech/#webdevelopment" target="_blank">Projects</a> </span>
     </div>
   </section>
@@ -403,21 +401,26 @@
   <section id="LaravelIntro">
     <div class="title">
       <span>Laravel Intro</span>
-      <span>Crypto Holder and<a target="_blank" href="http://kristophercalpe.tech">Web Administrator</a></span>
-  </div>
+      <span>is an<a id="highlight">open-source web MVC framework for PHP.</a><br><br>
+            Laravel is a<a id="highlight">robust framework</a> that provides easy development of PHP web applications with features like a modular packaging system with a dedicated dependency manager, access to relational databases, and other utilities for application deployment and maintenance.<br><br>
+            Laravel strives to provide an<a id="highlight">amazing developer experience</a>, while providing powerful features such as thorough dependency injection, an expressive database abstraction layer, queues and scheduled jobs, unit and integration testing, and more.</span>
+    </div>
   </section>
 
   <section id="CS202">
     <div class="title">
       <span>Load Balancing</span>
-      <span>Crypto Holder and<a target="_blank" href="http://kristophercalpe.tech">Web Administrator</a></span>
-  </div>
+      <span>◗ It refers to<a id="highlight">efficiently distributing incoming network traffic</a> across a group of backend servers, also known as a<a id="highlight">server farm or server pool.</a> <br/><br/>
+            ◗ As an organization meets demand for its applications, the load balancer<a id="highlight">decides which servers can handle that traffic</a>. This maintains a good user experience.<br/><br/>
+            ◗ Modern high‑traffic websites must serve hundreds of thousands, if not millions, of concurrent requests from users or clients and return the correct text, images, video, or application data, all in a fast and reliable manner. To cost‑effectively scale to meet these high volumes, modern computing best practice generally requires adding more servers.
+      </span>
+    </div>
   </section>
 
   <section id="contact">
     <div class="title">
       <span>Contact</span>
-      <span>Let's talk<span><br/><br/>
+      <span>Let's talk and discuss things<span><br/><br/>
       <span><a href="tel:09123456789">Phone </a> |<a href="mailto:contact@kristophercalpe.tech" target="_blank">Email</a> |<a href="https://ph.linkedin.com/in/kristopher-calpe-4b6a50202" target="_blank">LinkedIn</a> </span>
     </div>
   </section>
