@@ -368,7 +368,7 @@
       <span>I am a programmer, crypto hodler, and a web. developer. I like coding and investing to stuffs that I trust.<span><br/>
       <span>◗ My<a id="highlight">childhood dream </a> was to become an astronaut and a soldier to protect my country.<span>
       <span>◗ My<a id="highlight">dream place to visit</a> is Tokyo, Japan and Paris, France.<span>
-      <span>◗ I see myself<a id="highlight">5 years from now</a> being a CEO of my own company and traveling around the world.<span><br/><br/>
+      <span>◗ I see myself<a id="highlight">6 years from now</a> being a CEO of my own company and traveling around the world.<span><br/><br/>
       <span><a href="https://drive.google.com/file/d/1eyAzv04lvx7iVrSrF_UTe44JD7z0mCIk/view" target="_blank">Learn More </a> |<a href="http://kristophercalpe.tech/#webdevelopment" target="_blank">Projects</a> </span>
     </div>
   </section>
