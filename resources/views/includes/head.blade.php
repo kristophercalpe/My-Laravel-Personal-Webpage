@@ -2,7 +2,7 @@
 
 <meta name="description" content="">
 <meta name="Kristopher" content="Blade">
-<title>Checkout our layout</title>
+<title>Kristopher Calpe</title>
 
 <!-- load bootstrap from a cdn -->
 
