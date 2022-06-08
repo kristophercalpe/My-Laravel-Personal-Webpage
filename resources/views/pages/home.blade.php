@@ -1,7 +1,6 @@
 @extends('layouts.default')
 
 @section('content')
-<!DOCTYPE html>
 
 <head>
   <title> Kristopher Calpe </title>
@@ -37,7 +36,7 @@
   nav ul {
     position: absolute;
     top: 0;
-    left: 20%;
+    left: 0%;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -310,6 +309,8 @@
     <ul>
       <a href="#title"><li class="active" id="titleli">Home</li></a>
       <a href="#about"><li id="aboutli">About me</li></a>
+      <a href="#LaravelIntro"><li id="laravelli">Laravel Intro</li></a>
+      <a href="#CS202"><li id="csli">Load Balancing</li></a>
       <a href="#contact"><li id="contactli">Contact me</li></a>
       <li class="slide"></li>
     </ul>
@@ -332,26 +333,52 @@
   $(window).scroll(function() {
    var aboutT = $('#about').offset().top,
        aboutH = $('#about').outerHeight(),
+       laravelT = $('#LaravelIntro').offset().top,
+       laravelH = $('#LaravelIntro').outerHeight(),
+       loadbT = $('#CS202').offset().top,
+       loadbH = $('#CS202').outerHeight(),
        windowH = $(window).height(),
        windowS = $(this).scrollTop(),
        cT = $('#contact').offset().top,
        cH = $('#contact').outerHeight();
 
-   if(windowS > 1000){
+   if(windowS > 2700){
        $('#contactli').addClass('active');
        $('#aboutli').removeClass('active');
+       $('#laravelli').removeClass('active');
+       $('#csli').removeClass('active');
        $('#titleli').removeClass('active');
    }
-   else if (windowS > (aboutT+aboutH-windowH)){
-       $('#aboutli').addClass('active');
+   else if (windowS > (cT+cH-windowH-750)){
+       $('#csli').addClass('active'); //load balancing
        $('#titleli').removeClass('active');
-       $('#contactli').removeClass('active');
-   }
-   else if (windowS < (aboutT+aboutH-windowH-500)) {
-       $('#titleli').addClass('active');
+       $('#laravelli').removeClass('active');
        $('#aboutli').removeClass('active');
        $('#contactli').removeClass('active');
    }
+   else if (windowS > (cT+cH-windowH-1500)) {
+       $('#laravelli').addClass('active'); //laravel intro
+       $('#aboutli').removeClass('active');
+       $('#titleli').removeClass('active');
+       $('#csli').removeClass('active');
+       $('#contactli').removeClass('active');
+   }
+   else if (windowS > (aboutT+aboutH-windowH-725)) {
+       $('#aboutli').addClass('active'); //about
+       $('#titleli').removeClass('active');
+       $('#laravelli').removeClass('active');
+       $('#csli').removeClass('active');
+       $('#contactli').removeClass('active');
+   }
+   else if (windowS == 0) {
+       $('#titleli').addClass('active');
+       $('#aboutli').removeClass('active');
+       $('#laravelli').removeClass('active');
+       $('#csli').removeClass('active');
+       $('#contactli').removeClass('active');
+   }
+
+
   });
 </script>
 
@@ -368,9 +395,23 @@
       <span>I am a programmer, crypto hodler, and a web. developer. I like coding and investing to stuffs that I trust.<span><br/>
       <span>◗ My<a id="highlight">childhood dream </a> was to become an astronaut and a soldier to protect my country.<span>
       <span>◗ My<a id="highlight">dream place to visit</a> is Tokyo, Japan and Paris, France.<span>
-      <span>◗ I see myself<a id="highlight">6 years from now</a> being a CEO of my own company and traveling around the world.<span><br/><br/>
+      <span>◗ I see myself<a id="highlight">5 years from now</a> being a CEO of my own company and traveling around the world.<span><br/><br/>
       <span><a href="https://drive.google.com/file/d/1eyAzv04lvx7iVrSrF_UTe44JD7z0mCIk/view" target="_blank">Learn More </a> |<a href="http://kristophercalpe.tech/#webdevelopment" target="_blank">Projects</a> </span>
     </div>
+  </section>
+
+  <section id="LaravelIntro">
+    <div class="title">
+      <span>Laravel Intro</span>
+      <span>Crypto Holder and<a target="_blank" href="http://kristophercalpe.tech">Web Administrator</a></span>
+  </div>
+  </section>
+
+  <section id="CS202">
+    <div class="title">
+      <span>Load Balancing</span>
+      <span>Crypto Holder and<a target="_blank" href="http://kristophercalpe.tech">Web Administrator</a></span>
+  </div>
   </section>
 
   <section id="contact">
