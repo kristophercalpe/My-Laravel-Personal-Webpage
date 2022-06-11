@@ -1,1 +1,3 @@
-Duplicate .env file, node_modules folder and vendor folder from Laravel.
+Duplicate .env file and node_modules folder from Laravel.
+execute: composer install
+execute: php artisan serve
