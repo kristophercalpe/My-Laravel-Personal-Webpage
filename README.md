@@ -1,1 +1,1 @@
-Duplicate .env file and vendor folder from Laravel.
+Duplicate .env file, node_modules folder and vendor folder from Laravel.
